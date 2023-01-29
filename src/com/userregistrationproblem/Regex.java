@@ -58,4 +58,15 @@ public class Regex {
             System.out.println("invalid");
         }
     }
+    
+    //password validation rule2
+    public void validPasswordRule2() {
+        Pattern pattern = Pattern.compile("^([A-Z]?[a-z]{8,})$");
+        Matcher matcher = pattern.matcher("Sumithrabuddareddy");
+        if (matcher.matches()) {
+            System.out.println("valid");
+        } else {
+            System.out.println("invalid");
+        }
+    }
 }
