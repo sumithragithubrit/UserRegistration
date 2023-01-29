@@ -11,6 +11,7 @@ public class RegexMain {
         regex.validPasswordRule2();
         regex.validPasswordRule3();
         regex.validPasswordRule4();
+        regex.emailAllPattern();
         
 	}
 }
