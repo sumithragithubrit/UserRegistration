@@ -69,4 +69,15 @@ public class Regex {
             System.out.println("invalid");
         }
     }
+    
+    //password validation rule3
+    public void validPasswordRule3() {
+        Pattern pattern = Pattern.compile("^([A-Z]?[a-z](?=.*[0-9]).{8,})$");
+        Matcher matcher = pattern.matcher("Sumithra1222");
+        if (matcher.matches()) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+    }
 }

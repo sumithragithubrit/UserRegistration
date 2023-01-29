@@ -9,6 +9,7 @@ public class RegexMain {
         regex.validContactNumber();
         regex.validPasswordRule1();
         regex.validPasswordRule2();
+        regex.validPasswordRule3();
         
 	}
 }
