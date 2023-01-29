@@ -47,4 +47,15 @@ public class Regex {
                 System.out.println("invalid");
             }
         }
+    
+  //password validation rule1
+    public void validPasswordRule1(){
+        Pattern pattern = Pattern.compile("^[a-z]{8,}+$");
+        Matcher matcher = pattern.matcher("sumithra");
+        if (matcher.matches()){
+            System.out.println("valid");
+        }else {
+            System.out.println("invalid");
+        }
+    }
 }
